@@ -13,6 +13,6 @@ var facts=["He was the last Beatle to learn to drive", "He was never a vegetaria
 function johnLennonFacts(facts){
   var i=0
   var arr=[];
-  while(i<5){arr.push(`${facts[i]}!!!`) i++}
+  while(i<5){arr.push(`${facts[i]}!!!`); i++;}
   return arr;
 }
