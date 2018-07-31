@@ -4,7 +4,7 @@ var instruments=["Guitar", "Bass guitar", "Lead guitar", "Drums"];
 
 function theBeatlesPlay(musicians, intstruments){
 var array=[];
-  for (var i=0; i<5; i++) {
+  for (var i=0; i<4; i++) {
     array.push(`${musicians[i]} plays ${instruments[i]}`)
   }
   return array
