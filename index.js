@@ -17,3 +17,10 @@ function johnLennonFacts(facts){
   while(i<facts.length){arr.push(`${facts[i]}!!!`); i++;}
   return arr;
 }
+
+function iLoveTheBeatles(n){
+  var myArray=[];
+do {myArray.push("I love the Beatles!"); n++}
+while (n<15);
+return myArray;
+}
